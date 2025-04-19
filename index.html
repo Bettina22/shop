@@ -2,88 +2,93 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <title>KOOLSKICKS le meilleur magasin de snearkers !</title>
+    <title>KOOLSKICKS le meilleur magasin de sneakers !</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css"/>
   </head>
-  <body>
-    <header>
-      <h1>UN HERO HEADER</h1>
-      <h2>Le Site de baskets de vos rêves :)</h2>
-    </header>
-        <nav>
-          <div id="koolkicks">
-          <a id="logo" href="#">
-            <img src="assets\logo.svg" alt="logo Koolkicks">  
+  <body>                
+      <nav>
+          <a class="logo">
+          <img src="assets\logo.svg" alt="logo Koolkicks">  
           <h3>KOOLKICKS</h3>          
-        </a>
-          </div>               
-              
-            <ul>
-                <li>
-                  <a ref="#">Nouveautes</a>
-                </li>
-                <li>
-                  <a href="#">Rechercher</a>
-                </li>
-                <li>
-                  <a href="#">Contacter</a>
-                </li>
-            </ul>
-            <div>       
-        
-            <a href="MonPanier">Mon panier</a>
-            <img class="avatar" src="assets\avatar.jpg" alt="avatar utilisateur">
+        </a>                    
+         
+        <ul>
+                <li><a class="lien" href="#"></a>Nouveautés</li>
+                <li><a class="lien" href="#"></a>Rechercher</li>         
+                <li><a class="lien" href="#"></a>Contacter</li>
+        </ul>
 
+          <div class="bouton-avatar">  
+            <a class="bouton primaire" href="bouton">Mon panier</a>   
+            <img class="avatar" src="assets\avatar.jpg" alt="avatar utilisateur">
+          </div>
+      </nav>
+    <header>
+        <h1>UN HERO HEADER</h1>
+        <p>AVEC SA COURTE DESCRIPTION</p>
+        <div class="header bouton">
+          <a class="bouton primaire" href="#">Boutique</a>
+          <a class="bouton secondaire" href="#">decouvrir</a>
         </div>
-        </nav>
+      </header>
     
     <main>
         <h1>NOS DERNIERES SNEAKERS</h1>
-
         <section>
-            <article>
-                <img src="assets\shoes-1.jpg" alt="pic1">
-                <div>
-                    <h2>Nike</h2>
-                    <h3>120€</h3>
-                </div>
-                <p>Superbes baskets !</p>
-                <a href="Ajouterpanier">Ajouter au panier</a>       
-            </article>
-            <article>
-                <img src="assets\shoes-2.jpg" alt="pic2">
-                <div>
-                    <h2>New Balance</h2>
-                    <h3>110€</h3>
-                </div>
-                <p>texte</p>
-                <a href="Ajouterpanier">Ajouter au panier</a>       
-            </article>
-            <article>
-                <img src="assets\shoes-3.jpg" alt="pic3">
-                <div>
-                    <h2>Avia</h2>
-                    <h3>125€</h3>
-                </div>
-                <p>texte</p>
-                <a href="Ajouterpanier">Ajouter au panier</a>       
-            </article>
-            <article>
-                <img src="assets\shoes-4.jpg" alt="pic4">
-                <div>
-                    <h2>Adidas</h2>
-                    <h3>100€</h3>
-                </div>
-                <p>texte</p>
-                <a href="Ajouterpanier">Ajouter au panier</a>       
-            </article>
+          <article class="carte">
+            <img src="assets\shoes-1.jpg" alt="pic1">
 
+            <div class="texte-produit">
+              <div class="marque-prix">
+                <h3>Nike</h3>
+                <h4>120€</h4>
+            </div>
+            <p>Superbes baskets !</p>
+            <a class="bouton primaire" href="#">Ajouter au panier</a> 
+            </div>      
+          </article>
+          <article class="carte">
+          <img src="assets\shoes-2.jpg" alt="pic2">
+
+          <div class="texte-produit">
+            <div class="marque-prix">                             
+                  <h3>New Balance</h3>
+                  <h4>110€</h4>
+              </div>
+              <p>Superbes baskets!</p>
+              <a class="bouton primaire" href="#">Ajouter au panier</a> 
+          </div>      
+          </article>
+          <article class="carte">
+          <img src="assets\shoes-3.jpg" alt="pic3">
+
+          <div class="texte-produit">
+            <div class="marque-prix">                         
+                  <h3>Avia</h3>
+                  <h4>125€</h4>
+              </div>
+              <p>Superbes baskets!</p>
+              <a class="bouton primaire" href="#">Ajouter au panier</a>
+          </div>       
+          </article>
+          <article class="carte">
+            <img src="assets\shoes-4.jpg" alt="pic4">
+
+            <div class="texte-produit">
+              <div class="marque-prix">                          
+                    <h3>Adidas</h3>
+                    <h4>100€</h4>
+                </div>
+                <p>Superbes baskets!</p>
+                <a class="bouton primaire" href="#">Ajouter au panier</a> 
+            </div>      
+          </article>
         </section>
-    </main>
+    
     <footer>
         <p>Koolkicks 2025 Copyright</p>
     </footer>
-    
-</body>
+    </main>    
+  </body>
 </html>
